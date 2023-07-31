@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD7A3C732A7792C700E36310 /* APIErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A3C722A7792C700E36310 /* APIErrorModel.swift */; };
+		DD7A3C752A77935E00E36310 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A3C742A77935E00E36310 /* CustomError.swift */; };
+		DD7A3C782A7794BA00E36310 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A3C772A7794BA00E36310 /* Animations.swift */; };
+		DD7A3C7D2A77A85700E36310 /* Animation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A3C7C2A77A85700E36310 /* Animation+Extension.swift */; };
+		DD7A3C822A77BB3800E36310 /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A3C812A77BB3800E36310 /* AnimationController.swift */; };
+		DD7A3C842A77BD3E00E36310 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A3C832A77BD3E00E36310 /* AlertManager.swift */; };
+		DD7A3C862A77BF8100E36310 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A3C852A77BF8100E36310 /* UIApplication+Extension.swift */; };
+		DD7A3C8B2A77E12B00E36310 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A3C8A2A77E12B00E36310 /* UIView+Extension.swift */; };
 		DD88614E2A701A8200862523 /* AIImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88614D2A701A8200862523 /* AIImageModel.swift */; };
 		DD8861502A71828700862523 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88614F2A71828700862523 /* NetworkManager.swift */; };
 		DD8861522A7182BA00862523 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8861512A7182BA00862523 /* RequestType.swift */; };
@@ -19,9 +27,21 @@
 		DDCC795C2A7013BF000EEC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCC795A2A7013BF000EEC06 /* Main.storyboard */; };
 		DDCC795E2A7013BF000EEC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCC795D2A7013BF000EEC06 /* Assets.xcassets */; };
 		DDCC79612A7013BF000EEC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCC795F2A7013BF000EEC06 /* LaunchScreen.storyboard */; };
+		FE949A021C7D1C6C3CF008DA /* Pods_AIImageGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2883170E011CB7F185938E21 /* Pods_AIImageGenerator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2883170E011CB7F185938E21 /* Pods_AIImageGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIImageGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9A30FE4F41B8A1CC829A6B /* Pods-AIImageGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageGenerator.release.xcconfig"; path = "Target Support Files/Pods-AIImageGenerator/Pods-AIImageGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		B16FE4AE267BC48181D83211 /* Pods-AIImageGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIImageGenerator.debug.xcconfig"; path = "Target Support Files/Pods-AIImageGenerator/Pods-AIImageGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		DD7A3C722A7792C700E36310 /* APIErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorModel.swift; sourceTree = "<group>"; };
+		DD7A3C742A77935E00E36310 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		DD7A3C772A7794BA00E36310 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		DD7A3C7C2A77A85700E36310 /* Animation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation+Extension.swift"; sourceTree = "<group>"; };
+		DD7A3C812A77BB3800E36310 /* AnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
+		DD7A3C832A77BD3E00E36310 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		DD7A3C852A77BF8100E36310 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		DD7A3C8A2A77E12B00E36310 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		DD88614D2A701A8200862523 /* AIImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIImageModel.swift; sourceTree = "<group>"; };
 		DD88614F2A71828700862523 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		DD8861512A7182BA00862523 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
@@ -43,12 +63,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE949A021C7D1C6C3CF008DA /* Pods_AIImageGenerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E6BE20CC647C607D624C718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2883170E011CB7F185938E21 /* Pods_AIImageGenerator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5204711B85A0D6997216C790 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B16FE4AE267BC48181D83211 /* Pods-AIImageGenerator.debug.xcconfig */,
+				3B9A30FE4F41B8A1CC829A6B /* Pods-AIImageGenerator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD7A3C702A77928B00E36310 /* APIModels */ = {
+			isa = PBXGroup;
+			children = (
+				DD88614D2A701A8200862523 /* AIImageModel.swift */,
+				DD7A3C722A7792C700E36310 /* APIErrorModel.swift */,
+			);
+			path = APIModels;
+			sourceTree = "<group>";
+		};
+		DD7A3C712A7792A400E36310 /* ErrorModels */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A3C742A77935E00E36310 /* CustomError.swift */,
+			);
+			path = ErrorModels;
+			sourceTree = "<group>";
+		};
+		DD7A3C762A7794A700E36310 /* AnimationModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A3C772A7794BA00E36310 /* Animations.swift */,
+			);
+			path = AnimationModel;
+			sourceTree = "<group>";
+		};
+		DD7A3C792A77A25E00E36310 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A3C7C2A77A85700E36310 /* Animation+Extension.swift */,
+				DD7A3C852A77BF8100E36310 /* UIApplication+Extension.swift */,
+				DD7A3C8A2A77E12B00E36310 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD7A3C7E2A77BA8400E36310 /* AlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A3C832A77BD3E00E36310 /* AlertManager.swift */,
+			);
+			path = AlertManager;
+			sourceTree = "<group>";
+		};
+		DD7A3C7F2A77BAB400E36310 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A3C802A77BAC300E36310 /* AnimationController */,
+				DD7A3C7E2A77BA8400E36310 /* AlertManager */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		DD7A3C802A77BAC300E36310 /* AnimationController */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A3C812A77BB3800E36310 /* AnimationController.swift */,
+			);
+			path = AnimationController;
+			sourceTree = "<group>";
+		};
 		DD8861462A7018A100862523 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +160,8 @@
 		DD8861472A7018BC00862523 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				DD7A3C7F2A77BAB400E36310 /* CommonViews */,
+				DDCC796A2A701430000EEC06 /* Splash */,
 				DD88614A2A7018DB00862523 /* DetailsPage */,
 				DD8861462A7018A100862523 /* HomePage */,
 			);
@@ -112,6 +212,8 @@
 			children = (
 				DDCC79532A7013BF000EEC06 /* AIImageGenerator */,
 				DDCC79522A7013BF000EEC06 /* Products */,
+				5204711B85A0D6997216C790 /* Pods */,
+				1E6BE20CC647C607D624C718 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,7 +231,6 @@
 				DDCC79762A70151B000EEC06 /* Utils */,
 				DDCC79752A70150D000EEC06 /* Network */,
 				DDCC79742A701502000EEC06 /* Model */,
-				DDCC796A2A701430000EEC06 /* Splash */,
 				DDCC79692A70141A000EEC06 /* Storyboard */,
 				DDCC79682A7013FF000EEC06 /* Delegates */,
 				DD8861472A7018BC00862523 /* Scenes */,
@@ -168,7 +269,9 @@
 		DDCC79742A701502000EEC06 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DD88614D2A701A8200862523 /* AIImageModel.swift */,
+				DD7A3C762A7794A700E36310 /* AnimationModel */,
+				DD7A3C712A7792A400E36310 /* ErrorModels */,
+				DD7A3C702A77928B00E36310 /* APIModels */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +288,7 @@
 		DDCC79762A70151B000EEC06 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DD7A3C792A77A25E00E36310 /* Extensions */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -204,9 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDCC79652A7013BF000EEC06 /* Build configuration list for PBXNativeTarget "AIImageGenerator" */;
 			buildPhases = (
+				51E94CE63FF2B115A14810B6 /* [CP] Check Pods Manifest.lock */,
 				DDCC794D2A7013BF000EEC06 /* Sources */,
 				DDCC794E2A7013BF000EEC06 /* Frameworks */,
 				DDCC794F2A7013BF000EEC06 /* Resources */,
+				3D384540107E95519F2D6171 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,17 +369,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D384540107E95519F2D6171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIImageGenerator/Pods-AIImageGenerator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIImageGenerator/Pods-AIImageGenerator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIImageGenerator/Pods-AIImageGenerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E94CE63FF2B115A14810B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIImageGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDCC794D2A7013BF000EEC06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DDCC79592A7013BF000EEC06 /* HomeVC.swift in Sources */,
+				DD7A3C7D2A77A85700E36310 /* Animation+Extension.swift in Sources */,
+				DD7A3C862A77BF8100E36310 /* UIApplication+Extension.swift in Sources */,
+				DD7A3C842A77BD3E00E36310 /* AlertManager.swift in Sources */,
 				DDCC79552A7013BF000EEC06 /* AppDelegate.swift in Sources */,
+				DD7A3C782A7794BA00E36310 /* Animations.swift in Sources */,
+				DD7A3C822A77BB3800E36310 /* AnimationController.swift in Sources */,
+				DD7A3C8B2A77E12B00E36310 /* UIView+Extension.swift in Sources */,
 				DD8861502A71828700862523 /* NetworkManager.swift in Sources */,
+				DD7A3C732A7792C700E36310 /* APIErrorModel.swift in Sources */,
 				DD8861562A73B22D00862523 /* SplashScreenVC.swift in Sources */,
 				DD8861582A73B38300862523 /* DetailsVC.swift in Sources */,
 				DDCC79572A7013BF000EEC06 /* SceneDelegate.swift in Sources */,
+				DD7A3C752A77935E00E36310 /* CustomError.swift in Sources */,
 				DD88614E2A701A8200862523 /* AIImageModel.swift in Sources */,
 				DD8861542A72B4D900862523 /* CollectionViewCellVC.swift in Sources */,
 				DD8861522A7182BA00862523 /* RequestType.swift in Sources */,
@@ -418,6 +574,7 @@
 		};
 		DDCC79662A7013BF000EEC06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16FE4AE267BC48181D83211 /* Pods-AIImageGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,6 +603,7 @@
 		};
 		DDCC79672A7013BF000EEC06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9A30FE4F41B8A1CC829A6B /* Pods-AIImageGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
