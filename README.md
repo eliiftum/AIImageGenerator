@@ -8,6 +8,9 @@ The goal of the "AI Image Generator" project is to display a logo on a splash sc
  - Developed with UIKit.
  - API is https://ai-image-generator3.p.rapidapi.com
  - Storyboards
+ - URLSession is used for Network Request
+ - I used a generic type to be able to use all models in a single network layer.
+ - I used the singleton architecture in all managers because it allows them to be instantiated only once and kept in memory throughout the application's lifetime.
 ## Third-Party Libraries
  - KingFisher
  - Lottie
