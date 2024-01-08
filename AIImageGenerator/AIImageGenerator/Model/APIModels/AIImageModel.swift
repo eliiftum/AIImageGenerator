@@ -21,3 +21,8 @@ struct Variaty: Codable {
     let description: String
     let urls: [String]
 }
+
+struct GenerateBody: Codable{
+    let prompt: String
+    let page: Int
+}

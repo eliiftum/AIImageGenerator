@@ -18,7 +18,8 @@ class SplashScreenVC: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.addSubviews(logoLabel)    }
+        remoteValueLoaded(logoText: logoLabel.text ?? "")
+    }
     
     func remoteValueLoaded(logoText: String){
         DispatchQueue.main.async {
@@ -30,7 +31,13 @@ class SplashScreenVC: UIViewController{
                                 },
                               completion: nil)
             
-            Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false, block: {timer in self.navigationController?.pushViewController(HomeVC(nibName: nil, bundle: nil), animated: true)})
+            Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false, block: { timer in
+                
+                let homeVC:HomeVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeVC") as! HomeVC
+                
+                
+                self.navigationController?.pushViewController(homeVC, animated: true)
+            })
         }
     }
     

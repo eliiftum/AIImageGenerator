@@ -8,19 +8,32 @@
 import Foundation
 
 protocol NetworkDelegate{
-    func request<T: Codable>(with requestType: RequestType, completion: @escaping (Result<T, CustomError>) -> Void)
+    func request<T: Codable, C: Codable>(with requestType: RequestType ,param:C?, completion: @escaping (Result<T, CustomError>) -> Void)
 }
 
 class NetworkManager: NetworkDelegate{
     
     static let shared = NetworkManager()
     
-    func request<T: Codable>(with requestType: RequestType, completion: @escaping (Result<T, CustomError>) -> Void) {
+    func request<T: Codable, C: Codable>(with requestType: RequestType ,param:C? = nil, completion: @escaping (Result<T, CustomError>) -> Void) {
         
         guard let url = requestType.url else {return}
         
         var request = URLRequest(url: url)
         request.httpMethod = requestType.httpMethod.rawValue
+        
+       if request.httpMethod == HttpMethod.POST.rawValue{
+           
+           let encoder = JSONEncoder()
+           encoder.dateEncodingStrategy = .iso8601 // Use ISO 8601 date format
+           do {
+               let jsonData = try encoder.encode(param)
+               request.httpBody = jsonData
+           } catch {
+               print("Error encoding param: \(error)")
+           }
+          
+       }
         
         let session = URLSession.shared
         session.dataTask(with: request){data, response, error in
