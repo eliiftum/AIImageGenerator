@@ -2,7 +2,6 @@
 //  AIImageModel.swift
 //  AIImageGenerator
 //
-//  Created by Elif Tum on 25.07.2023.
 //
 
 import Foundation
